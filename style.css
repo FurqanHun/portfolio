@@ -80,6 +80,7 @@ section #introduction, #skills, #experience, #education{
     position: fixed;
     bottom: 20px;
     right: 2rem;
+    z-index: 300;
 }
 .container {
     display: flex;
@@ -272,7 +273,7 @@ footer{
 .credits{
     margin-left: 1rem;
     margin-right: 1rem;
-    background-image: url('/Assets/strawhat.png');
+    background-image: url('https://github.com/FurqanHun/portfolio/blob/830c8139b6e7c394fa4bfa6535e5bdffdbefb5e9/Assets/strawhat.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 300px;
@@ -371,7 +372,7 @@ footer{
     left: 6rem;
     width: 200px;
     height: 400px;
-    background-image: url('/Assets/furqanhun_profilepic.jpg');
+    background-image: url('https://github.com/FurqanHun/portfolio/blob/830c8139b6e7c394fa4bfa6535e5bdffdbefb5e9/Assets/furqanhun_profilepic.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
