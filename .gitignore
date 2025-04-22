@@ -1,0 +1,17 @@
+# Node dependencies (never commit node_modules!)
+node_modules/
+
+# Package lock file (not needed for static deploys/GitHub Pages)
+package-lock.json
+
+# Editor swap/backup files (covers Zed, vim, nano, etc.)
+*~
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

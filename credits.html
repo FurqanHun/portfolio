@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Furqan Hun - Credits</title>
+
+        <link
+            rel="icon"
+            href="Assets/strawhat.png"
+            type="image/png"
+            sizes="16x10"
+        />
+        <link href="/src/output.css" rel="stylesheet" />
+        <script src="./htmx.min.js"></script>
+    </head>
+    <body class="bg-black text-white font-sans">
+        <div class="accessable">
+            <button
+                id="goToTopButton"
+                class="fixed bottom-5 right-5 bg-orange-500 text-white p-2 rounded-full shadow-lg z-50 hidden hover:bg-orange-600 focus:outline-none"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 10l7-7m0 0l7 7m-7-7v18"
+                    />
+                </svg>
+            </button>
+
+            <div
+                hx-get="partials/header.html"
+                hx-swap="outerHTML"
+                hx-trigger="load"
+            ></div>
+
+            <main>
+                <section class="credits py-16">
+                    <div class="max-w-2xl mx-auto px-4">
+                        <h1
+                            class="text-3xl font-bold mb-8 text-center text-orange-500"
+                        >
+                            Credits
+                        </h1>
+
+                        <div class="bg-gray-800 rounded-lg p-6 shadow-lg mb-8">
+                            <h2 class="text-xl font-semibold mb-4 text-white">
+                                Icon Credits
+                            </h2>
+                            <div class="space-y-4">
+                                <div
+                                    class="flex items-center hover:bg-gray-700 p-2 rounded transition"
+                                >
+                                    <a
+                                        href="https://icons8.com/icon/20909/html-logo"
+                                        class="text-orange-400 hover:text-orange-300"
+                                        >HTML logo</a
+                                    >
+                                    <span class="mx-2">icon by</span>
+                                    <a
+                                        href="https://icons8.com"
+                                        class="text-blue-400 hover:text-blue-300"
+                                        >Icons8</a
+                                    >
+                                </div>
+
+                                <div
+                                    class="flex items-center hover:bg-gray-700 p-2 rounded transition"
+                                >
+                                    <a
+                                        href="https://icons8.com/icon/21278/css-logo"
+                                        class="text-orange-400 hover:text-orange-300"
+                                        >CSS Logo</a
+                                    >
+                                    <span class="mx-2">icon by</span>
+                                    <a
+                                        href="https://icons8.com"
+                                        class="text-blue-400 hover:text-blue-300"
+                                        >Icons8</a
+                                    >
+                                </div>
+
+                                <div
+                                    class="flex items-center hover:bg-gray-700 p-2 rounded transition"
+                                >
+                                    <a
+                                        href="https://icons8.com/icon/108784/javascript"
+                                        class="text-orange-400 hover:text-orange-300"
+                                        >JavaScript</a
+                                    >
+                                    <span class="mx-2">icon by</span>
+                                    <a
+                                        href="https://icons8.com"
+                                        class="text-blue-400 hover:text-blue-300"
+                                        >Icons8</a
+                                    >
+                                </div>
+
+                                <div
+                                    class="flex items-center hover:bg-gray-700 p-2 rounded transition"
+                                >
+                                    <a
+                                        href="https://icons8.com/icon/55251/c-sharp-logo"
+                                        class="text-orange-400 hover:text-orange-300"
+                                        >C Sharp Logo</a
+                                    >
+                                    <span class="mx-2">icon by</span>
+                                    <a
+                                        href="https://icons8.com"
+                                        class="text-blue-400 hover:text-blue-300"
+                                        >Icons8</a
+                                    >
+                                </div>
+
+                                <div
+                                    class="flex items-center hover:bg-gray-700 p-2 rounded transition"
+                                >
+                                    <a
+                                        href="https://icons8.com/icon/40670/c-programming"
+                                        class="text-orange-400 hover:text-orange-300"
+                                        >C Programming</a
+                                    >
+                                    <span class="mx-2">icon by</span>
+                                    <a
+                                        href="https://icons8.com"
+                                        class="text-blue-400 hover:text-blue-300"
+                                        >Icons8</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Added Technology Credits -->
+                        <div class="bg-gray-800 rounded-lg p-6 shadow-lg">
+                            <h2 class="text-xl font-semibold mb-4 text-white">
+                                Technology Credits
+                            </h2>
+                            <div class="space-y-4">
+                                <div
+                                    class="flex items-center hover:bg-gray-700 p-2 rounded transition"
+                                >
+                                    <a
+                                        href="https://htmx.org/"
+                                        class="text-purple-400 hover:text-purple-300 font-bold"
+                                        >HTMX</a
+                                    >
+                                    <span class="mx-2"
+                                        >- Modern UI development with minimal
+                                        JavaScript</span
+                                    >
+                                </div>
+
+                                <div
+                                    class="flex items-center hover:bg-gray-700 p-2 rounded transition"
+                                >
+                                    <a
+                                        href="https://tailwindcss.com/"
+                                        class="text-teal-400 hover:text-teal-300 font-bold"
+                                        >Tailwind CSS</a
+                                    >
+                                    <span class="mx-2"
+                                        >- Utility-first CSS framework</span
+                                    >
+                                </div>
+                            </div>
+
+                            <p class="mt-6 text-gray-400">
+                                This site is built using HTMX for dynamic
+                                content loading and Tailwind CSS for styling.
+                                Special thanks to the creators and contributors
+                                of these amazing technologies.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <div
+                hx-get="partials/footer.html"
+                hx-swap="outerHTML"
+                hx-trigger="load"
+            ></div>
+        </div>
+
+        <div class="not-accessable hidden">
+            <h3
+                class="mt-40 ml-2 mr-2 text-lg md:text-xl lg:text-2xl text-center"
+            >
+                Sorry! Furqan Hun is not accessible on your device.
+            </h3>
+        </div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                // Process HTMX elements
+                const elementsToProcess = document.querySelectorAll("[hx-get]");
+                elementsToProcess.forEach(function (element) {
+                    htmx.process(element);
+                });
+            });
+        </script>
+        <script src="script.js"></script>
+    </body>
+</html>

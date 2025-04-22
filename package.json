@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "papaparse": "^5.5.2",
+    "tailwindcss": "^4.1.4",
+    "htmx":"^2.0.4"
+  }
+}

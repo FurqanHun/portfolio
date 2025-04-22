@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Furqan Hun - Portfolio</title>
+
+        <link
+            rel="icon"
+            href="Assets\strawhat.png"
+            type="image/png"
+            sizes="16x16"
+        />
+        <link href="/src/output.css" rel="stylesheet" />
+        <script src="./vendors/htmx.min.js"></script>
+    </head>
+    <body class="bg-black text-white font-sans">
+        <div class="accessable">
+            <button
+                id="goToTopButton"
+                class="fixed bottom-5 right-5 bg-orange-500 text-white p-2 rounded-full shadow-lg z-50 hidden hover:bg-orange-600 focus:outline-none"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 10l7-7m0 0l7 7m-7-7v18"
+                    />
+                </svg>
+            </button>
+            <div
+                hx-get="partials/header.html"
+                hx-swap="outerHTML"
+                hx-trigger="load"
+            ></div>
+            <main>
+                <div
+                    hx-get="partials/introduction.html"
+                    hx-swap="outerHTML"
+                    hx-trigger="load"
+                ></div>
+                <div
+                    hx-get="partials/skills.html"
+                    hx-swap="outerHTML"
+                    hx-trigger="load"
+                ></div>
+                <div
+                    hx-get="partials/experience.html"
+                    hx-swap="outerHTML"
+                    hx-trigger="load"
+                ></div>
+                <img
+                    src="Assets\strawhat.png"
+                    class="max-w-full h-auto block mx-auto mt-12 md:mt-20"
+                    alt="strawhat"
+                />
+            </main>
+            <div
+                hx-get="partials/footer.html"
+                hx-swap="outerHTML"
+                hx-trigger="load"
+            ></div>
+        </div>
+
+        <div class="not-accessable" style="display: none">
+            <h3
+                class="mt-40 ml-2 mr-2 text-lg md:text-xl lg:text-2xl text-center"
+            >
+                Sorry! Furqan Hun is not acessible on your device.
+            </h3>
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const elementsToProcess = document.querySelectorAll("[hx-get]");
+                elementsToProcess.forEach(function (element) {
+                    htmx.process(element);
+                });
+            });
+        </script>
+        <script src="script.js"></script>
+    </body>
+</html>
