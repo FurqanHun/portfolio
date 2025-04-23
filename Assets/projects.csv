@@ -1,14 +1,19 @@
 image,title,description,link
-Assets/Projects/Bulky-Image-Converter.png,Bulky Image Converter,Script to convert images in bulky, Yes that's it.,https://github.com/FurqanHun/Bulky-Image-Converter
+Assets/Projects/wa-status.png,WhatsApp Status Checker,A simple site wiht backend api that pings whatsapp servers from different locations.,https://github.com/FurqanHun/wa-status
+Assets/Projects/textnomnom-py.png,Text Nom Nom,A text hungry gremlin that extract text from PDFs-PPTs (with OCR support) + more,https://github.com/FurqanHun/textnomnom-py
+Assets/Projects/localscreenshare-py.png,Local Screen Share,Local Screen Share (both udp/tcp implementations) built using Python as a university project.,https://github.com/FurqanHun/LocalScreenShare-py
+Assets/Projects/temp-conv-rust.png,Temperature Converter Rust,Temperature Converter built using Rust.,https://github.com/FurqanHun/temp-conv-rust
+Assets/Projects/guessing-game-rust.png,Guessing Game Rust,Guessing Game built using Rust.,https://github.com/FurqanHun/guessing-game-rust
+Assets/Projects/Bulky-Image-Converter.png,Bulky Image Converter,Script to convert images in bulky...Yes that's it.,https://github.com/FurqanHun/Bulky-Image-Converter
 Assets/Projects/aQracker.png,aQracker,A simple Python script for cracking password-protected archives using 7-Zip.,https://github.com/FurqanHun/aQracker
 Assets/Projects/BBC_Urdu_DSA.png,BBC Urdu DSA,Scrapped BBC News Urdu and used headline's titles to train ML and DL algortihms for uni project,https://github.com/FurqanHun/BBC_Urdu_DSA
 Assets/Projects/MAL_AniManga_DSA.png,MAL AniManga DSA,Scrapped MAL and used AniManga Synopsis to train ML and DL algortihms for uni project,https://github.com/FurqanHun/MAL_AniManga_DSA
 Assets/Projects/DSA-LTS.png,DSA-LTS,Contains all my Data Structure and ALgorithms Lab Tasks (Python),https://github.com/FurqanHun/DSA-LTS
-Assets/Projects/portfolio.png,Portfolio,A responsive portfolio website built using HTML, CSS, JavaScript and BootStrap.,https://github.com/FurqanHun/OIBSIP/tree/master/Level-1/Task%202%20-%20Portfolio
-Assets/Projects/temp-conv.png,Temp Converter,A responsive temperature converter web app built using HTML, CSS and JavaScript.,https://github.com/FurqanHun/OIBSIP/tree/master/Level-1/Task%203%20-%20Temp%20Converter
+Assets/Projects/portfolio.png,Portfolio,A responsive portfolio website built using HTML-CSS-JavaScript and BootStrap.,https://github.com/FurqanHun/OIBSIP/tree/master/Level-1/Task%202%20-%20Portfolio
+Assets/Projects/temp-conv.png,Temp Converter,A responsive temperature converter web app built using HTML-CSS and JavaScript.,https://github.com/FurqanHun/OIBSIP/tree/master/Level-1/Task%203%20-%20Temp%20Converter
 Assets/Projects/landingpage-furqanhun.png,Furqan Hun Landing Page,A responsive landing page for a fictional website built using HTML and CSS.,https://github.com/FurqanHun/OIBSIP/tree/master/Level-1/Task%201%20-%20Landing%20Page
 Assets/Projects/FYT_Inventory_Management.png,FYT Inv Management,An application built as a university project that utilizes all CRUD operations of database in C#.,https://github.com/FurqanHun/FYT_Inventory_Management
-Assets/Projects/OOP-CS-LTS.png,OOP-CS-LTS,All my OOP's CLI based, and Windows Forms Lab Tasks and Assignments built using C# in .NET 7.0,https://github.com/FurqanHun/OOP-CS-LTS
+Assets/Projects/OOP-CS-LTS.png,OOP-CS-LTS,All my OOP's CLI based and Windows Forms Lab Tasks and Assignments built using C# in .NET 7.0,https://github.com/FurqanHun/OOP-CS-LTS
 Assets/Projects/informatician_rohansx.png,Informatician,Contributed to an open source book listing project on GitHub by creating documentation.,https://github.com/FurqanHun/informatician_rohansx/tree/contribution-style-furqanhun
 Assets/Projects/ToDoApp_Ankit6989.png,ToDoApp_Ankit6989,Contributed to an open source project on GitHub by improving their documentation.,https://github.com/FurqanHun/ToDoAPP_Ankit6989/tree/README-Furqan
 Assets/Projects/Fursistant.png,Fursistant,A voice assistant created as an after project for "Voice Application using JAVASCRIPT" event by GDSC SMIU.,https://github.com/FurqanHun/Fursistant
