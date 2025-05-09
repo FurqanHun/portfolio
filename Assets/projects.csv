@@ -1,7 +1,7 @@
 image,title,description,link
 Assets/Projects/wa-status.png,WhatsApp Status Checker,A simple site wiht backend api that pings whatsapp servers from different locations.,https://github.com/FurqanHun/wa-status
 Assets/Projects/textnomnom-py.png,Text Nom Nom,A text hungry gremlin that extract text from PDFs-PPTs (with OCR support) + more,https://github.com/FurqanHun/textnomnom-py
-Assets/Projects/k-xity,K-Xity,System Design and UI prototype for an e-city app for uni project,https://www.figma.com/proto/ydG8RF04littcbMLQjxOLl/UI-Prototype
+Assets/Projects/k-xity.png,K-Xity,System Design and UI prototype for an e-city app for uni project,https://www.figma.com/proto/ydG8RF04littcbMLQjxOLl/UI-Prototype
 Assets/Projects/localscreenshare-py.png,Local Screen Share,Local Screen Share (both udp/tcp implementations) built using Python as a university project.,https://github.com/FurqanHun/LocalScreenShare-py
 Assets/Projects/temp-conv-rust.png,Temperature Converter Rust,Temperature Converter built using Rust.,https://github.com/FurqanHun/temp-conv-rust
 Assets/Projects/guessing-game-rust.png,Guessing Game Rust,Guessing Game built using Rust.,https://github.com/FurqanHun/guessing-game-rust
