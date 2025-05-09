@@ -1,10 +1,12 @@
 image,title,description,link
 Assets/Projects/wa-status.png,WhatsApp Status Checker,A simple site wiht backend api that pings whatsapp servers from different locations.,https://github.com/FurqanHun/wa-status
 Assets/Projects/textnomnom-py.png,Text Nom Nom,A text hungry gremlin that extract text from PDFs-PPTs (with OCR support) + more,https://github.com/FurqanHun/textnomnom-py
+Assets/Projects/k-xity,K-Xity,System Design and UI prototype for an e-city app for uni project,https://www.figma.com/proto/ydG8RF04littcbMLQjxOLl/UI-Prototype
 Assets/Projects/localscreenshare-py.png,Local Screen Share,Local Screen Share (both udp/tcp implementations) built using Python as a university project.,https://github.com/FurqanHun/LocalScreenShare-py
 Assets/Projects/temp-conv-rust.png,Temperature Converter Rust,Temperature Converter built using Rust.,https://github.com/FurqanHun/temp-conv-rust
 Assets/Projects/guessing-game-rust.png,Guessing Game Rust,Guessing Game built using Rust.,https://github.com/FurqanHun/guessing-game-rust
 Assets/Projects/Bulky-Image-Converter.png,Bulky Image Converter,Script to convert images in bulky...Yes that's it.,https://github.com/FurqanHun/Bulky-Image-Converter
+Assets/Projects/echoes-on-rails.png,Echoes on Rails,System Design and UI prototype of a game for uni project,https://www.figma.com/proto/4PE9nnoKSZIpHa21jHXup2/Echoes-on-Rails
 Assets/Projects/aQracker.png,aQracker,A simple Python script for cracking password-protected archives using 7-Zip.,https://github.com/FurqanHun/aQracker
 Assets/Projects/BBC_Urdu_DSA.png,BBC Urdu DSA,Scrapped BBC News Urdu and used headline's titles to train ML and DL algortihms for uni project,https://github.com/FurqanHun/BBC_Urdu_DSA
 Assets/Projects/MAL_AniManga_DSA.png,MAL AniManga DSA,Scrapped MAL and used AniManga Synopsis to train ML and DL algortihms for uni project,https://github.com/FurqanHun/MAL_AniManga_DSA
