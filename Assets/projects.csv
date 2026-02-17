@@ -1,6 +1,9 @@
 image,title,description,link
-Assets/Projects/wa-status.png,WhatsApp Status Checker,A simple site wiht backend api that pings whatsapp servers from different locations.,https://github.com/FurqanHun/wa-status
-Assets/Projects/textnomnom-py.png,Text Nom Nom,A text hungry gremlin that extract text from PDFs-PPTs (with OCR support) + more,https://github.com/FurqanHun/textnomnom-py
+Assets/Projects/mpv-music.png,mpv-music,"A TUI-based music player wrapper for MPV. Originally a BASH script, it has been rewritten in Rust.",https://github.com/FurqanHun/mpv-music
+Assets/Projects/tastytabs.jpg,TastyTabs,Mobile app built in React Native to explore and create recipes.,https://github.com/FurqanHun/TastyTabs
+Assets/Projects/fitnesstracker.png,Fitness Tracker,Mobile app built in React Native to track fitness goals and progress.,https://github.com/FurqanHun/FitnessTracker
+Assets/Projects/wa-status.png,WhatsApp Status Checker,A simple site with backend API that pings WhatsApp servers from different locations.,https://github.com/FurqanHun/wa-status
+Assets/Projects/textnomnom-py.png,Text Nom Nom,A text hungry gremlin that extracts text from PDFs-PPTs (with OCR support) + more,https://github.com/FurqanHun/textnomnom-py
 Assets/Projects/k-xity.png,K-Xity,System Design and UI prototype for an e-city app for uni project,https://www.figma.com/proto/ydG8RF04littcbMLQjxOLl/UI-Prototype
 Assets/Projects/localscreenshare-py.png,Local Screen Share,Local Screen Share (both udp/tcp implementations) built using Python as a university project.,https://github.com/FurqanHun/LocalScreenShare-py
 Assets/Projects/temp-conv-rust.png,Temperature Converter Rust,Temperature Converter built using Rust.,https://github.com/FurqanHun/temp-conv-rust
