@@ -7,11 +7,11 @@
 
         <link
             rel="icon"
-            href="Assets/strawhat.png"
+            href="{{ '/Assets/strawhat.png' | url }}"
             type="image/png"
             sizes="16x10"
         />
-        <link href="./src/output.css" rel="stylesheet" />
+        <link href="{{ '/src/output.css' | url }}" rel="stylesheet" />
 
     </head>
     <body class="bg-black text-white font-sans">
@@ -228,6 +228,6 @@
                 });
             });
         </script> -->
-        <script src="script.js"></script>
+        <script src="{{ '/script.js' | url }}"></script>
     </body>
 </html>

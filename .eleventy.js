@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("vendors");
 
   return {
+    pathPrefix: "/portfolio/",
     dir: {
       input: ".",
       includes: "_includes",

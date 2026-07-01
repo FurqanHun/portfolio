@@ -35,11 +35,11 @@
 
         <link
             rel="icon"
-            href="Assets/strawhat.png"
+            href="{{ '/Assets/strawhat.png' | url }}"
             type="image/png"
             sizes="16x16"
         />
-        <link href="./src/output.css" rel="stylesheet" />
+        <link href="{{ '/src/output.css' | url }}" rel="stylesheet" />
 
     </head>
     <body class="bg-black text-white font-sans">
@@ -76,7 +76,7 @@
                         {% for row in projects %}
                             {% if row.title %}
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="{{ row.image }}" class="w-full h-48 object-cover" alt="{{ row.title }}">
+                                <img src="{{ '/' | append: row.image | url }}" class="w-full h-48 object-cover" alt="{{ row.title }}">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">{{ row.title }}</h3>
                                     <p class="text-gray-300 mb-4">{{ row.description }}</p>
@@ -98,7 +98,7 @@
                 Sorry! Furqan Hun is not accessible on your device.
             </h3>
         </div>
-        <script src="script.js"></script>
+        <script src="{{ '/script.js' | url }}"></script>
 
     </body>
 </html>
