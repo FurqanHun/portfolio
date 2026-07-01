@@ -1,0 +1,158 @@
+[
+    {
+        "image": "Assets/Projects/mpv-music.png",
+        "title": "mpv-music",
+        "description": "A TUI-based music player wrapper for MPV. Originally a BASH script, it has been rewritten in Rust.",
+        "link": "https://github.com/FurqanHun/mpv-music"
+    },
+    {
+        "image": "Assets/Projects/tastytabs.jpg",
+        "title": "TastyTabs",
+        "description": "Mobile app built in React Native to explore and create recipes.",
+        "link": "https://github.com/FurqanHun/TastyTabs"
+    },
+    {
+        "image": "Assets/Projects/fitnesstracker.png",
+        "title": "Fitness Tracker",
+        "description": "Mobile app built in React Native to track fitness goals and progress.",
+        "link": "https://github.com/FurqanHun/FitnessTracker"
+    },
+    {
+        "image": "Assets/Projects/wa-status.png",
+        "title": "WhatsApp Status Checker",
+        "description": "A simple site with backend API that pings WhatsApp servers from different locations.",
+        "link": "https://github.com/FurqanHun/wa-status"
+    },
+    {
+        "image": "Assets/Projects/textnomnom-py.png",
+        "title": "Text Nom Nom",
+        "description": "A text hungry gremlin that extracts text from PDFs-PPTs (with OCR support) + more",
+        "link": "https://github.com/FurqanHun/textnomnom-py"
+    },
+    {
+        "image": "Assets/Projects/k-xity.png",
+        "title": "K-Xity",
+        "description": "System Design and UI prototype for an e-city app for uni project",
+        "link": "https://www.figma.com/proto/ydG8RF04littcbMLQjxOLl/UI-Prototype"
+    },
+    {
+        "image": "Assets/Projects/localscreenshare-py.png",
+        "title": "Local Screen Share",
+        "description": "Local Screen Share (both udp/tcp implementations) built using Python as a university project.",
+        "link": "https://github.com/FurqanHun/LocalScreenShare-py"
+    },
+    {
+        "image": "Assets/Projects/temp-conv-rust.png",
+        "title": "Temperature Converter Rust",
+        "description": "Temperature Converter built using Rust.",
+        "link": "https://github.com/FurqanHun/temp-conv-rust"
+    },
+    {
+        "image": "Assets/Projects/guessing-game-rust.png",
+        "title": "Guessing Game Rust",
+        "description": "Guessing Game built using Rust.",
+        "link": "https://github.com/FurqanHun/guessing-game-rust"
+    },
+    {
+        "image": "Assets/Projects/Bulky-Image-Converter.png",
+        "title": "Bulky Image Converter",
+        "description": "Script to convert images in bulky...Yes that's it.",
+        "link": "https://github.com/FurqanHun/Bulky-Image-Converter"
+    },
+    {
+        "image": "Assets/Projects/echoes-on-rails.png",
+        "title": "Echoes on Rails",
+        "description": "System Design and UI prototype of a game for uni project",
+        "link": "https://www.figma.com/proto/4PE9nnoKSZIpHa21jHXup2/Echoes-on-Rails"
+    },
+    {
+        "image": "Assets/Projects/aQracker.png",
+        "title": "aQracker",
+        "description": "A simple Python script for cracking password-protected archives using 7-Zip.",
+        "link": "https://github.com/FurqanHun/aQracker"
+    },
+    {
+        "image": "Assets/Projects/BBC_Urdu_DSA.png",
+        "title": "BBC Urdu DSA",
+        "description": "Scrapped BBC News Urdu and used headline's titles to train ML and DL algortihms for uni project",
+        "link": "https://github.com/FurqanHun/BBC_Urdu_DSA"
+    },
+    {
+        "image": "Assets/Projects/MAL_AniManga_DSA.png",
+        "title": "MAL AniManga DSA",
+        "description": "Scrapped MAL and used AniManga Synopsis to train ML and DL algortihms for uni project",
+        "link": "https://github.com/FurqanHun/MAL_AniManga_DSA"
+    },
+    {
+        "image": "Assets/Projects/DSA-LTS.png",
+        "title": "DSA-LTS",
+        "description": "Contains all my Data Structure and ALgorithms Lab Tasks (Python)",
+        "link": "https://github.com/FurqanHun/DSA-LTS"
+    },
+    {
+        "image": "Assets/Projects/portfolio.png",
+        "title": "Portfolio",
+        "description": "A responsive portfolio website built using HTML-CSS-JavaScript and BootStrap.",
+        "link": "https://github.com/FurqanHun/OIBSIP/tree/master/Level-1/Task%202%20-%20Portfolio"
+    },
+    {
+        "image": "Assets/Projects/temp-conv.png",
+        "title": "Temp Converter",
+        "description": "A responsive temperature converter web app built using HTML-CSS and JavaScript.",
+        "link": "https://github.com/FurqanHun/OIBSIP/tree/master/Level-1/Task%203%20-%20Temp%20Converter"
+    },
+    {
+        "image": "Assets/Projects/landingpage-furqanhun.png",
+        "title": "Furqan Hun Landing Page",
+        "description": "A responsive landing page for a fictional website built using HTML and CSS.",
+        "link": "https://github.com/FurqanHun/OIBSIP/tree/master/Level-1/Task%201%20-%20Landing%20Page"
+    },
+    {
+        "image": "Assets/Projects/FYT_Inventory_Management.png",
+        "title": "FYT Inv Management",
+        "description": "An application built as a university project that utilizes all CRUD operations of database in C#.",
+        "link": "https://github.com/FurqanHun/FYT_Inventory_Management"
+    },
+    {
+        "image": "Assets/Projects/OOP-CS-LTS.png",
+        "title": "OOP-CS-LTS",
+        "description": "All my OOP's CLI based and Windows Forms Lab Tasks and Assignments built using C# in .NET 7.0",
+        "link": "https://github.com/FurqanHun/OOP-CS-LTS"
+    },
+    {
+        "image": "Assets/Projects/informatician_rohansx.png",
+        "title": "Informatician",
+        "description": "Contributed to an open source book listing project on GitHub by creating documentation.",
+        "link": "https://github.com/FurqanHun/informatician_rohansx/tree/contribution-style-furqanhun"
+    },
+    {
+        "image": "Assets/Projects/ToDoApp_Ankit6989.png",
+        "title": "ToDoApp_Ankit6989",
+        "description": "Contributed to an open source project on GitHub by improving their documentation.",
+        "link": "https://github.com/FurqanHun/ToDoAPP_Ankit6989/tree/README-Furqan"
+    },
+    {
+        "image": "Assets/Projects/Fursistant.png",
+        "title": "Fursistant",
+        "description": "A voice assistant created as an after project for \"Voice Application using JAVASCRIPT\" event by GDSC SMIU.",
+        "link": "https://github.com/FurqanHun/Fursistant"
+    },
+    {
+        "image": "Assets/Projects/PF-LTS.png",
+        "title": "PF-LTS",
+        "description": "Contains all my Programming Fundamental's CLI based Lab Tasks and Assignment (C language).",
+        "link": "https://github.com/FurqanHun/PF-LTS"
+    },
+    {
+        "image": "Assets/Projects/MarksheetGenSite.png",
+        "title": "MarksheetGenSite",
+        "description": "An HTML/CSS/JavaScript Marksheet Generator project for Web Dev Bootcamp by TECVERSE.",
+        "link": "https://github.com/FurqanHun/MarksheetGenSite"
+    },
+    {
+        "image": "Assets/Projects/PassGen.png",
+        "title": "Project PassGen",
+        "description": "CLI based tool that generates random passwords and stores them with a user-specified name built in C.",
+        "link": "https://github.com/FurqanHun/PassGen"
+    }
+]
