@@ -36,7 +36,170 @@
                 </svg>
             </button>
 
-            {% include "header.html" %}
+            <nav id="pc-nav" class="hidden md:block bg-black py-4">
+    <ul class="container mx-auto flex items-center justify-between">
+        <h3
+            id="navhead"
+            class="text-xl font-semibold text-white hover:text-orange-500 cursor-pointer"
+        >
+            <a href="/portfolio">
+            Furqan Hun
+        </h3>
+        <div class="flex space-x-6">
+            <li>
+                <a
+                    class="text-gray-300 hover:text-orange-500 active:text-orange-500"
+                    aria-current="page"
+                    href="/portfolio#introduction"
+                    >Introduction</a
+                >
+            </li>
+            <li>
+                <a
+                    class="text-gray-300 hover:text-orange-500"
+                    href="/portfolio#skills"
+                    >Skills</a
+                >
+            </li>
+            <li>
+                <a
+                    class="text-gray-300 hover:text-orange-500"
+                    href="/portfolio#experience"
+                    >Experience</a
+                >
+            </li>
+            <li>
+                <a
+                    class="text-gray-300 hover:text-orange-500"
+                    href="/portfolio/projects"
+                    >Projects</a
+                >
+            </li>
+            <li>
+                <a
+                    class="text-yellow-400 hover:text-orange-500 transition"
+                    href="/"
+                    >Hub</a>
+            </li>
+        </div>
+    </ul>
+</nav>
+
+<nav id="mobile-nav" class="md:hidden bg-black py-3">
+    <div class="container mx-auto flex items-center justify-between">
+        <a
+            href="/portfolio"
+            class="text-xl font-semibold text-white">
+                Furqan Hun</a
+        >
+        <button
+            id="mobile-menu-button"
+            class="text-gray-300 focus:outline-none"
+            type="button"
+        >
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+            </svg>
+        </button>
+    </div>
+    <!-- Removed the "collapse" class which causes issues with Tailwind -->
+    <div class="hidden bg-black py-2 px-4" id="navbar-collapse">
+        <ul class="space-y-2 text-center">
+            <li>
+                <a
+                    class="block py-2 text-gray-300 hover:text-orange-500 active:text-orange-500"
+                    aria-current="page"
+                    href="/portfolio#introduction"
+                    >Introduction</a
+                >
+            </li>
+            <li>
+                <a
+                    class="block py-2 text-gray-300 hover:text-orange-500"
+                    href="/portfolio#skills"
+                    >Skills</a
+                >
+            </li>
+            <li>
+                <a
+                    class="block py-2 text-gray-300 hover:text-orange-500"
+                    href="/portfolio#experience"
+                    >Experience</a
+                >
+            </li>
+            <li>
+                <a
+                    class="block py-2 text-gray-300 hover:text-orange-500"
+                    href="/portfolio/projects"
+                    >Projects</a
+                >
+            </li>
+<li>
+                <a
+                    class="block py-2 text-yellow-400 hover:text-orange-500 transition"
+                    href="/"
+                    >Hub</a
+                >
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div
+    class="w-full bg-yellow-300 text-yellow-900 text-center py-0.5 text-xs font-semibold shadow"
+>
+    🚧 Under construction — content update in progress!
+    <span class="ml-2">(Last updated: Feb 17, 2026)</span>
+</div>
+
+
+<!-- <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        initializeMobileMenu();
+    });
+
+    // Navhead reload logic
+    const navhead = document.getElementById("navhead");
+    if (navhead) {
+        navhead.addEventListener("click", () => {
+            window.location.reload();
+        });
+    }
+
+    // Separate function to initialize the mobile menu
+    function initializeMobileMenu() {
+        const menuButton = document.getElementById("mobile-menu-button");
+        const navbarCollapse = document.getElementById("navbar-collapse");
+
+        if (menuButton && navbarCollapse) {
+            menuButton.addEventListener("click", function () {
+                navbarCollapse.classList.toggle("hidden");
+            });
+        }
+
+        const navLinks = document.querySelectorAll("#pc-nav a, #mobile-nav a");
+        navLinks.forEach((link) => {
+            link.addEventListener("click", function () {
+                navLinks.forEach((otherLink) => {
+                    otherLink.classList.remove("active");
+                });
+                this.classList.add("active");
+            });
+        });
+    }
+</script> -->
+
 
             <main>
                 <section class="credits py-16">
@@ -208,7 +371,17 @@
                 </section>
             </main>
 
-            {% include "footer.html" %}
+            <div class="bg-gray-900 py-4 text-center text-gray-400 text-sm">
+    <footer>
+        <p>
+            Copyright © Furqan Hun
+            <a href="/portfolio/credits" class="text-white hover:underline">
+                | Credits
+            </a>
+        </p>
+    </footer>
+</div>
+
         </div>
 
         <div class="not-accessable hidden">

@@ -1,8 +1,13 @@
 {
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css && npx @11ty/eleventy"
+  },
   "dependencies": {
     "@tailwindcss/cli": "^4.3.2",
-    "htmx.org": "^2.0.10",
-    "papaparse": "^5.5.4",
     "tailwindcss": "^4.3.2"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6"
   }
 }

@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Furqan Hun - Projects</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta
+            name="description"
+            content="A showcase of FurqanHun's open source projects, including mpv-music, Fedora COPR packages, web experiments, and software engineering work."
+        />
+        <meta
+            name="keywords"
+            content="FurqanHun projects, open source, mpv-music, Fedora COPR, software engineer portfolio, github projects, web development"
+        />
+        <link
+            rel="canonical"
+            href="https://furqanhun.github.io/portfolio/projects.html"
+        />
+
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "CollectionPage",
+                "name": "FurqanHun Projects",
+                "description": "A collection of open source projects and software developed by FurqanHun.",
+                "url": "https://furqanhun.github.io/portfolio/projects.html",
+                "author": {
+                    "@type": "Person",
+                    "name": "FurqanHun",
+                    "url": "https://furqanhun.github.io/portfolio/"
+                }
+            }
+        </script>
+
+        <link
+            rel="icon"
+            href="Assets/strawhat.png"
+            type="image/png"
+            sizes="16x16"
+        />
+        <link href="./src/output.css" rel="stylesheet" />
+
+    </head>
+    <body class="bg-black text-white font-sans">
+        <div class="accessable">
+            <button
+                id="goToTopButton"
+                class="fixed bottom-5 right-5 bg-orange-500 text-white p-2 rounded-full shadow-lg z-50 hidden hover:bg-orange-600 focus:outline-none"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 10l7-7m0 0l7 7m-7-7v18"
+                    />
+                </svg>
+            </button>
+            <nav id="pc-nav" class="hidden md:block bg-black py-4">
+    <ul class="container mx-auto flex items-center justify-between">
+        <h3
+            id="navhead"
+            class="text-xl font-semibold text-white hover:text-orange-500 cursor-pointer"
+        >
+            <a href="/portfolio">
+            Furqan Hun
+        </h3>
+        <div class="flex space-x-6">
+            <li>
+                <a
+                    class="text-gray-300 hover:text-orange-500 active:text-orange-500"
+                    aria-current="page"
+                    href="/portfolio#introduction"
+                    >Introduction</a
+                >
+            </li>
+            <li>
+                <a
+                    class="text-gray-300 hover:text-orange-500"
+                    href="/portfolio#skills"
+                    >Skills</a
+                >
+            </li>
+            <li>
+                <a
+                    class="text-gray-300 hover:text-orange-500"
+                    href="/portfolio#experience"
+                    >Experience</a
+                >
+            </li>
+            <li>
+                <a
+                    class="text-gray-300 hover:text-orange-500"
+                    href="/portfolio/projects"
+                    >Projects</a
+                >
+            </li>
+            <li>
+                <a
+                    class="text-yellow-400 hover:text-orange-500 transition"
+                    href="/"
+                    >Hub</a>
+            </li>
+        </div>
+    </ul>
+</nav>
+
+<nav id="mobile-nav" class="md:hidden bg-black py-3">
+    <div class="container mx-auto flex items-center justify-between">
+        <a
+            href="/portfolio"
+            class="text-xl font-semibold text-white">
+                Furqan Hun</a
+        >
+        <button
+            id="mobile-menu-button"
+            class="text-gray-300 focus:outline-none"
+            type="button"
+        >
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+            </svg>
+        </button>
+    </div>
+    <!-- Removed the "collapse" class which causes issues with Tailwind -->
+    <div class="hidden bg-black py-2 px-4" id="navbar-collapse">
+        <ul class="space-y-2 text-center">
+            <li>
+                <a
+                    class="block py-2 text-gray-300 hover:text-orange-500 active:text-orange-500"
+                    aria-current="page"
+                    href="/portfolio#introduction"
+                    >Introduction</a
+                >
+            </li>
+            <li>
+                <a
+                    class="block py-2 text-gray-300 hover:text-orange-500"
+                    href="/portfolio#skills"
+                    >Skills</a
+                >
+            </li>
+            <li>
+                <a
+                    class="block py-2 text-gray-300 hover:text-orange-500"
+                    href="/portfolio#experience"
+                    >Experience</a
+                >
+            </li>
+            <li>
+                <a
+                    class="block py-2 text-gray-300 hover:text-orange-500"
+                    href="/portfolio/projects"
+                    >Projects</a
+                >
+            </li>
+<li>
+                <a
+                    class="block py-2 text-yellow-400 hover:text-orange-500 transition"
+                    href="/"
+                    >Hub</a
+                >
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div
+    class="w-full bg-yellow-300 text-yellow-900 text-center py-0.5 text-xs font-semibold shadow"
+>
+    🚧 Under construction — content update in progress!
+    <span class="ml-2">(Last updated: Feb 17, 2026)</span>
+</div>
+
+
+<!-- <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        initializeMobileMenu();
+    });
+
+    // Navhead reload logic
+    const navhead = document.getElementById("navhead");
+    if (navhead) {
+        navhead.addEventListener("click", () => {
+            window.location.reload();
+        });
+    }
+
+    // Separate function to initialize the mobile menu
+    function initializeMobileMenu() {
+        const menuButton = document.getElementById("mobile-menu-button");
+        const navbarCollapse = document.getElementById("navbar-collapse");
+
+        if (menuButton && navbarCollapse) {
+            menuButton.addEventListener("click", function () {
+                navbarCollapse.classList.toggle("hidden");
+            });
+        }
+
+        const navLinks = document.querySelectorAll("#pc-nav a, #mobile-nav a");
+        navLinks.forEach((link) => {
+            link.addEventListener("click", function () {
+                navLinks.forEach((otherLink) => {
+                    otherLink.classList.remove("active");
+                });
+                this.classList.add("active");
+            });
+        });
+    }
+</script> -->
+
+            <main>
+                <section id="projects" class="py-10 px-4">
+                    <h2
+                        class="text-3xl font-bold mb-10 text-center text-orange-500"
+                    >
+                        My Projects
+                    </h2>
+                    <div class="max-w-6xl mx-auto" id="projects-container">
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mb-10">
+                        
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <div class="bg-gray-900 py-4 text-center text-gray-400 text-sm">
+    <footer>
+        <p>
+            Copyright © Furqan Hun
+            <a href="/portfolio/credits" class="text-white hover:underline">
+                | Credits
+            </a>
+        </p>
+    </footer>
+</div>
+
+        </div>
+        <div class="not-accessable hidden">
+            <h3
+                class="mt-40 ml-2 mr-2 text-lg md:text-xl lg:text-2xl text-center"
+            >
+                Sorry! Furqan Hun is not accessible on your device.
+            </h3>
+        </div>
+        <script src="script.js"></script>
+
+    </body>
+</html>

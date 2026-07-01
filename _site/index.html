@@ -1,0 +1,788 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>FurqanHun | Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta
+            name="description"
+            content="The professional portfolio of FurqanHun. Software Engineer, Open Source Contributor, and Fedora Packager. Explore projects, skills, and experience."
+        />
+        <meta
+            name="keywords"
+            content="FurqanHun, Portfolio, Software Engineer, Web Developer, Fedora, Open Source, Resume, CV, HTMX"
+        />
+        <link rel="canonical" href="https://furqanhun.github.io/portfolio/" />
+
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "ProfilePage",
+                "mainEntity": {
+                    "@type": "Person",
+                    "name": "FurqanHun",
+                    "url": "https://furqanhun.github.io/portfolio/",
+                    "sameAs": [
+                        "https://github.com/FurqanHun",
+                        "https://furqanhun.github.io/"
+                    ],
+                    "jobTitle": "Software Engineer",
+                    "description": "Open Source enthusiast."
+                }
+            }
+        </script>
+
+        <link
+            rel="icon"
+            href="Assets/strawhat.png"
+            type="image/png"
+            sizes="16x16"
+        />
+        <link href="./src/output.css" rel="stylesheet" />
+
+    </head>
+    <body class="bg-black text-white font-sans">
+        <div class="accessable">
+            <button
+                id="goToTopButton"
+                class="fixed bottom-5 right-5 bg-orange-500 text-white p-2 rounded-full shadow-lg z-50 hidden hover:bg-orange-600 focus:outline-none"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 10l7-7m0 0l7 7m-7-7v18"
+                    />
+                </svg>
+            </button>
+            <nav id="pc-nav" class="hidden md:block bg-black py-4">
+    <ul class="container mx-auto flex items-center justify-between">
+        <h3
+            id="navhead"
+            class="text-xl font-semibold text-white hover:text-orange-500 cursor-pointer"
+        >
+            <a href="/portfolio">
+            Furqan Hun
+        </h3>
+        <div class="flex space-x-6">
+            <li>
+                <a
+                    class="text-gray-300 hover:text-orange-500 active:text-orange-500"
+                    aria-current="page"
+                    href="/portfolio#introduction"
+                    >Introduction</a
+                >
+            </li>
+            <li>
+                <a
+                    class="text-gray-300 hover:text-orange-500"
+                    href="/portfolio#skills"
+                    >Skills</a
+                >
+            </li>
+            <li>
+                <a
+                    class="text-gray-300 hover:text-orange-500"
+                    href="/portfolio#experience"
+                    >Experience</a
+                >
+            </li>
+            <li>
+                <a
+                    class="text-gray-300 hover:text-orange-500"
+                    href="/portfolio/projects"
+                    >Projects</a
+                >
+            </li>
+            <li>
+                <a
+                    class="text-yellow-400 hover:text-orange-500 transition"
+                    href="/"
+                    >Hub</a>
+            </li>
+        </div>
+    </ul>
+</nav>
+
+<nav id="mobile-nav" class="md:hidden bg-black py-3">
+    <div class="container mx-auto flex items-center justify-between">
+        <a
+            href="/portfolio"
+            class="text-xl font-semibold text-white">
+                Furqan Hun</a
+        >
+        <button
+            id="mobile-menu-button"
+            class="text-gray-300 focus:outline-none"
+            type="button"
+        >
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+            </svg>
+        </button>
+    </div>
+    <!-- Removed the "collapse" class which causes issues with Tailwind -->
+    <div class="hidden bg-black py-2 px-4" id="navbar-collapse">
+        <ul class="space-y-2 text-center">
+            <li>
+                <a
+                    class="block py-2 text-gray-300 hover:text-orange-500 active:text-orange-500"
+                    aria-current="page"
+                    href="/portfolio#introduction"
+                    >Introduction</a
+                >
+            </li>
+            <li>
+                <a
+                    class="block py-2 text-gray-300 hover:text-orange-500"
+                    href="/portfolio#skills"
+                    >Skills</a
+                >
+            </li>
+            <li>
+                <a
+                    class="block py-2 text-gray-300 hover:text-orange-500"
+                    href="/portfolio#experience"
+                    >Experience</a
+                >
+            </li>
+            <li>
+                <a
+                    class="block py-2 text-gray-300 hover:text-orange-500"
+                    href="/portfolio/projects"
+                    >Projects</a
+                >
+            </li>
+<li>
+                <a
+                    class="block py-2 text-yellow-400 hover:text-orange-500 transition"
+                    href="/"
+                    >Hub</a
+                >
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div
+    class="w-full bg-yellow-300 text-yellow-900 text-center py-0.5 text-xs font-semibold shadow"
+>
+    🚧 Under construction — content update in progress!
+    <span class="ml-2">(Last updated: Feb 17, 2026)</span>
+</div>
+
+
+<!-- <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        initializeMobileMenu();
+    });
+
+    // Navhead reload logic
+    const navhead = document.getElementById("navhead");
+    if (navhead) {
+        navhead.addEventListener("click", () => {
+            window.location.reload();
+        });
+    }
+
+    // Separate function to initialize the mobile menu
+    function initializeMobileMenu() {
+        const menuButton = document.getElementById("mobile-menu-button");
+        const navbarCollapse = document.getElementById("navbar-collapse");
+
+        if (menuButton && navbarCollapse) {
+            menuButton.addEventListener("click", function () {
+                navbarCollapse.classList.toggle("hidden");
+            });
+        }
+
+        const navLinks = document.querySelectorAll("#pc-nav a, #mobile-nav a");
+        navLinks.forEach((link) => {
+            link.addEventListener("click", function () {
+                navLinks.forEach((otherLink) => {
+                    otherLink.classList.remove("active");
+                });
+                this.classList.add("active");
+            });
+        });
+    }
+</script> -->
+
+            <main>
+                <section
+    id="introduction"
+    class="py-16 flex flex-col items-center justify-center text-center"
+>
+    <h2 id="Introduction" class="text-3xl font-bold text-orange-500 mb-8">
+        Introduction
+    </h2>
+
+    <div class="name-title mb-6">
+        <h1 id="name" class="text-4xl font-semibold text-white">M Furqan K.</h1>
+        <p id="title" class="text-lg text-gray-400">
+            Software Engineering Student - SMI University
+        </p>
+    </div>
+
+    <div class="email mb-4">
+        <h4 class="text-lg font-semibold text-orange-500">Email</h4>
+        <a
+            href="mailto:business.furqanhun@gmail.com"
+            class="text-white hover:underline"
+            >business.furqanhun@gmail.com</a
+        >
+    </div>
+
+    <div class="socialmedia">
+        <h4 class="text-lg font-semibold text-orange-500 mb-2">Social Media</h4>
+        <div class="flex justify-center space-x-4">
+            <a
+                href="https://www.linkedin.com/in/FurqanHun/"
+                target="_blank"
+                class="hover:scale-110"
+            >
+                <img
+                    src="./Assets/linkedin.png"
+                    alt="linkedin"
+                    class="w-6 h-6"
+                    id="linkedin"
+                />
+            </a>
+            <a
+                href="https://github.com/FurqanHun"
+                target="_blank"
+                class="hover:scale-110"
+            >
+                <img
+                    src="./Assets/github_fluid.png"
+                    alt="github"
+                    class="w-6 h-6"
+                />
+            </a>
+            <a
+                href="https://www.instagram.com/furqan_hi_hun/"
+                target="_blank"
+                class="hover:scale-110"
+            >
+                <img
+                    src="./Assets/instagram.png"
+                    alt="instagram"
+                    class="w-6 h-6"
+                />
+            </a>
+        </div>
+    </div>
+</section>
+
+                <section id="skills" class="py-16 bg-gray-900">
+    <h2
+        id="Skills"
+        class="container mx-auto text-3xl font-bold text-orange-500 mb-8 text-center md:text-left"
+    >
+        My Skills
+    </h2>
+    <div
+        class="container mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 justify-center"
+    >
+        <div
+            class="flex flex-col items-center p-4 rounded-lg shadow-md bg-gray-800 hover:scale-105 transition-transform duration-200"
+        >
+            <img
+                width="48"
+                height="48"
+                src="https://img.icons8.com/color/48/000000/html-5--v1.png"
+                alt="html-5--v1"
+                class="mb-2"
+            />
+            <h5 class="text-lg font-semibold text-white">HTML</h5>
+        </div>
+        <div
+            class="flex flex-col items-center p-4 rounded-lg shadow-md bg-gray-800 hover:scale-105 transition-transform duration-200"
+        >
+            <img
+                width="48"
+                height="48"
+                src="https://img.icons8.com/color/48/000000/css3.png"
+                alt="css3"
+                class="mb-2"
+            />
+            <h5 class="text-lg font-semibold text-white">CSS</h5>
+        </div>
+        <div
+            class="flex flex-col items-center p-4 rounded-lg shadow-md bg-gray-800 hover:scale-105 transition-transform duration-200"
+        >
+            <img
+                width="48"
+                height="48"
+                src="https://img.icons8.com/color/48/000000/javascript--v1.png"
+                alt="javascript--v1"
+                class="mb-2"
+            />
+            <h5 class="text-lg font-semibold text-white">JavaScript</h5>
+        </div>
+        <div
+            class="flex flex-col items-center p-4 rounded-lg shadow-md bg-gray-800 hover:scale-105 transition-transform duration-200"
+        >
+            <img
+                width="48"
+                height="48"
+                src="https://img.icons8.com/color/48/000000/c-sharp-logo.png"
+                alt="c-sharp-logo"
+                class="mb-2"
+            />
+            <h5 class="text-lg font-semibold text-white">C#</h5>
+        </div>
+        <div
+            class="flex flex-col items-center p-4 rounded-lg shadow-md bg-gray-800 hover:scale-105 transition-transform duration-200"
+        >
+            <img
+                width="48"
+                height="48"
+                src="https://img.icons8.com/color/48/000000/c-programming.png"
+                alt="c-programming"
+                class="mb-2"
+            />
+            <h5 class="text-lg font-semibold text-white">C</h5>
+        </div>
+        <div
+            class="flex flex-col items-center p-4 rounded-lg shadow-md bg-gray-800 hover:scale-105 transition-transform duration-200"
+        >
+            <img
+                width="48"
+                height="48"
+                src="https://img.icons8.com/color/48/000000/python.png"
+                alt="python"
+                class="mb-2"
+            />
+            <h5 class="text-lg font-semibold text-white">Python</h5>
+        </div>
+        <div
+            class="flex flex-col items-center p-4 rounded-lg shadow-md bg-gray-800 hover:scale-105 transition-transform duration-200"
+        >
+            <img
+                width="48"
+                height="48"
+                src="https://raw.githubusercontent.com/rust-lang/rust-artwork/refs/heads/master/logo/rust-logo-white-outline.svg"
+                alt="rust"
+                class="mb-2"
+            />
+            <h5 class="text-lg font-semibold text-white">Rust</h5>
+        </div>
+        <div
+            class="flex flex-col items-center p-4 rounded-lg shadow-md bg-gray-800 hover:scale-105 transition-transform duration-200"
+        >
+            <img
+                width="48"
+                height="48"
+                src="https://img.icons8.com/color/48/000000/bash.png"
+                alt="bash"
+                class="mb-2"
+            />
+            <h5 class="text-lg font-semibold text-white">Bash</h5>
+        </div>
+    </div>
+</section>
+
+                <section id="experience" class="py-16 bg-gray-800">
+    <div class="container mx-auto text-white">
+        <h2
+            id="Experience"
+            class="text-3xl font-bold text-orange-500 mb-8 text-center md:text-left"
+        >
+            My Experience
+        </h2>
+
+        <div class="mb-8">
+            <h4 class="text-xl font-semibold text-orange-500 mb-4">
+                Professional Experience
+            </h4>
+            <ul class="list-disc pl-6">
+                <li class="mb-2">
+                    Web Development and Designing Intern at Oasis Infobytes (1
+                    Month)
+                </li>
+                <li class="mb-2">
+                    Co-Founder, Lead Content Writer and Tech Team Member at
+                    Xounity (March 2024 - Present)
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h4 class="text-xl font-semibold text-orange-500 mb-4">
+                Learning Experience
+            </h4>
+
+            <div
+                class="mb-4 flex flex-wrap gap-4 items-center justify-center md:justify-start"
+            >
+                <img
+                    width="48"
+                    height="48"
+                    src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"
+                    alt="Tux"
+                />
+                <img
+                    width="48"
+                    height="48"
+                    src="https://img.icons8.com/color/48/000000/html-5--v1.png"
+                    alt="html-5--v1"
+                />
+                <img
+                    width="48"
+                    height="48"
+                    src="https://img.icons8.com/color/48/000000/css3.png"
+                    alt="css3"
+                />
+                <img
+                    width="48"
+                    height="48"
+                    src="https://img.icons8.com/color/48/000000/react-native.png"
+                    alt="react"
+                />
+                <img
+                    width="48"
+                    height="48"
+                    src="https://img.icons8.com/color/48/000000/javascript--v1.png"
+                    alt="javascript--v1"
+                />
+                <img
+                    width="48"
+                    height="48"
+                    src="https://img.icons8.com/color/48/000000/c-sharp-logo.png"
+                    alt="c-sharp-logo"
+                />
+                <img
+                    width="48"
+                    height="48"
+                    src="https://img.icons8.com/color/48/000000/c-programming.png"
+                    alt="c-programming"
+                />
+                <img
+                    width="48"
+                    height="48"
+                    src="https://godotengine.org/assets/press/icon_color.png"
+                    alt="godot-engine"
+                />
+                <img
+                    width="48"
+                    height="48"
+                    src="https://img.icons8.com/color/48/000000/python.png"
+                    alt="python"
+                />
+                <img
+                    width="48"
+                    height="48"
+                    src="https://raw.githubusercontent.com/rust-lang/rust-artwork/refs/heads/master/logo/rust-logo-white-outline.svg"
+                    alt="rust"
+                />
+                <img
+                    width="48"
+                    height="48"
+                    src="https://img.icons8.com/color/48/000000/unity.png"
+                    alt="unity"
+                />
+            </div>
+
+            <ul class="list-disc pl-6">
+                <li class="mb-2">
+                    <strong>React Native Mobile Apps:</strong> Built TastyTabs &
+                    Fitness Tracker (Cross-platform logic).
+                </li>
+                <li class="mb-2">
+                    <strong>PassGen:</strong> CLI password generator in C.
+                </li>
+                <li class="mb-2">
+                    <strong>PF, OOP, DSA, OS, DBMS LTS:</strong>
+                    Lab tasks in C, C#, Python, and more.
+                </li>
+                <li class="mb-2">
+                    <strong>Text Nom Nom:</strong> OCR/PDF parser in Python
+                    (Data Pipeline Automation).
+                </li>
+                <li class="mb-2">
+                    <strong>aQracker:</strong> Python utility for archive
+                    security analysis and recovery using 7-Zip.
+                </li>
+                <li class="mb-2">
+                    <strong>BBC Urdu DSA + MAL AniManga DSA:</strong> Data
+                    scraping + ML/NLP project.
+                </li>
+                <li class="mb-2">
+                    <strong>Open Source (2024):</strong> Reviewer: added
+                    features/enhancements, documentation, more.
+                </li>
+                <li class="mb-2">
+                    <strong>Open Source (2023):</strong> Contributed
+                    documentation improvements to two GitHub projects.
+                </li>
+                <li class="mb-2">
+                    <strong>Portfolio:</strong> Responsive portfolio site
+                    (HTML/CSS/JS/Bootstrap) which migrated to
+                    (HTMX/TailwindCSS/JS). <em>Yes, this one!</em>
+                </li>
+            </ul>
+
+            <h4 class="text-xl font-semibold text-orange-500 mb-4 mt-8">
+                Linux & Packaging Experience
+            </h4>
+            <ul class="list-disc pl-6 mb-12">
+                <li class="mb-2">
+                    Daily drive Fedora Linux; sometimes I break stuff and fix
+                    it.
+                </li>
+                <li class="mb-2">
+                    Maintain COPR packages for personal use:
+                    <a
+                        href="https://copr.fedorainfracloud.org/coprs/furqanhun/lowfi/"
+                        class="text-orange-400 underline hover:text-orange-300"
+                        target="_blank"
+                        rel="noopener"
+                        >lowfi</a
+                    >,
+                    <a
+                        href="https://copr.fedorainfracloud.org/coprs/furqanhun/cotp/"
+                        class="text-orange-400 underline hover:text-orange-300"
+                        target="_blank"
+                        rel="noopener"
+                        >cotp</a
+                    >.
+                </li>
+            </ul>
+
+            <h4
+                class="text-xl font-semibold text-orange-500 mb-6 text-center md:text-left"
+            >
+                Featured Engineering Projects
+            </h4>
+
+            <div
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12"
+            >
+                <div
+                    class="bg-gray-700 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-200 border border-gray-600"
+                >
+                    <img
+                        src="Assets/Projects/mpv-music.png"
+                        alt="mpv-music"
+                        class="w-full h-48 object-cover"
+                    />
+                    <div class="p-4">
+                        <h5 class="text-lg font-bold text-white mb-1">
+                            mpv-music (Rust)
+                        </h5>
+                        <p class="text-gray-300 text-sm mb-4">
+                            High-performance TUI wrapper for MPV. Rewritten from
+                            Bash to Rust for memory safety and speed.
+                        </p>
+                        <a
+                            href="https://github.com/FurqanHun/mpv-music"
+                            target="_blank"
+                            class="text-orange-400 text-sm font-semibold hover:text-orange-300"
+                        >
+                            View Code &rarr;
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-gray-700 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-200 border border-gray-600"
+                >
+                    <img
+                        src="Assets/Projects/tastytabs.jpg"
+                        alt="TastyTabs"
+                        class="w-full h-48 object-cover"
+                    />
+                    <div class="p-4">
+                        <h5 class="text-lg font-bold text-white mb-1">
+                            TastyTabs
+                        </h5>
+                        <p class="text-gray-300 text-sm mb-4">
+                            React Native mobile app. Demonstrates component
+                            reusability and complex UI props logic.
+                        </p>
+                        <a
+                            href="https://github.com/FurqanHun/TastyTabs"
+                            target="_blank"
+                            class="text-orange-400 text-sm font-semibold hover:text-orange-300"
+                        >
+                            View Code &rarr;
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-gray-700 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-200 border border-gray-600"
+                >
+                    <img
+                        src="Assets/Projects/fitnesstracker.png"
+                        alt="Fitness Tracker"
+                        class="w-full h-48 object-cover"
+                    />
+                    <div class="p-4">
+                        <h5 class="text-lg font-bold text-white mb-1">
+                            Fitness Tracker
+                        </h5>
+                        <p class="text-gray-300 text-sm mb-4">
+                            React Native app focusing on local data persistence,
+                            real-time updates, and state management.
+                        </p>
+                        <a
+                            href="https://github.com/FurqanHun/FitnessTracker"
+                            target="_blank"
+                            class="text-orange-400 text-sm font-semibold hover:text-orange-300"
+                        >
+                            View Code &rarr;
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-gray-700 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-200 border border-gray-600"
+                >
+                    <img
+                        src="Assets/Projects/FYT_Inventory_Management.png"
+                        alt="FYT Inventory"
+                        class="w-full h-48 object-cover"
+                    />
+                    <div class="p-4">
+                        <h5 class="text-lg font-bold text-white mb-1">
+                            FYT Inventory
+                        </h5>
+                        <p class="text-gray-300 text-sm mb-4">
+                            Full-stack C#/.NET application utilizing SQL
+                            databases. Handles complex CRUD operations.
+                        </p>
+                        <a
+                            href="https://github.com/FurqanHun/FYT_Inventory_Management"
+                            target="_blank"
+                            class="text-orange-400 text-sm font-semibold hover:text-orange-300"
+                        >
+                            View Code &rarr;
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-gray-700 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-200 border border-gray-600"
+                >
+                    <img
+                        src="Assets/Projects/textnomnom-py.png"
+                        alt="Text Nom Nom"
+                        class="w-full h-48 object-cover"
+                    />
+                    <div class="p-4">
+                        <h5 class="text-lg font-bold text-white mb-1">
+                            Text Nom Nom
+                        </h5>
+                        <p class="text-gray-300 text-sm mb-4">
+                            Python OCR pipeline. Automates text extraction from
+                            unstructured PDFs and images.
+                        </p>
+                        <a
+                            href="https://github.com/FurqanHun/textnomnom-py"
+                            target="_blank"
+                            class="text-orange-400 text-sm font-semibold hover:text-orange-300"
+                        >
+                            View Code &rarr;
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-gray-700 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-200 border border-gray-600"
+                >
+                    <img
+                        src="Assets/Projects/wa-status.png"
+                        alt="WhatsApp Status"
+                        class="w-full h-48 object-cover"
+                    />
+                    <div class="p-4">
+                        <h5 class="text-lg font-bold text-white mb-1">
+                            WA Status Checker
+                        </h5>
+                        <p class="text-gray-300 text-sm mb-4">
+                            Backend API service that pings servers from
+                            geo-distributed locations to monitor uptime.
+                        </p>
+                        <a
+                            href="https://github.com/FurqanHun/wa-status"
+                            target="_blank"
+                            class="text-orange-400 text-sm font-semibold hover:text-orange-300"
+                        >
+                            View Code &rarr;
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-2 text-center text-sm text-gray-400">
+                I just like open source stuff, bruh.
+            </p>
+            <p class="mt-6 text-center">
+                <a
+                    href="projects.html"
+                    class="text-orange-500 font-semibold underline underline-offset-4 hover:text-orange-400 transition"
+                >
+                    Check out my full project gallery &rarr;
+                </a>
+            </p>
+        </div>
+    </div>
+</section>
+
+                <img
+                    src="Assets\strawhat.png"
+                    class="max-w-full h-auto block mx-auto mt-12 md:mt-20"
+                    alt="strawhat"
+                />
+            </main>
+            <div class="bg-gray-900 py-4 text-center text-gray-400 text-sm">
+    <footer>
+        <p>
+            Copyright © Furqan Hun
+            <a href="/portfolio/credits" class="text-white hover:underline">
+                | Credits
+            </a>
+        </p>
+    </footer>
+</div>
+
+        </div>
+
+        <div class="not-accessable" style="display: none">
+            <h3
+                class="mt-40 ml-2 mr-2 text-lg md:text-xl lg:text-2xl text-center"
+            >
+                Sorry! Furqan Hun is not acessible on your device.
+            </h3>
+        </div>
+        <!-- <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const elementsToProcess = document.querySelectorAll("[hx-get]");
+                elementsToProcess.forEach(function (element) {
+                    htmx.process(element);
+                });
+            });
+        </script> -->
+        <script src="script.js"></script>
+    </body>
+</html>

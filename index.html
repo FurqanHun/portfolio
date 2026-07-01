@@ -40,7 +40,7 @@
             sizes="16x16"
         />
         <link href="./src/output.css" rel="stylesheet" />
-        <script src="./vendors/htmx.min.js"></script>
+
     </head>
     <body class="bg-black text-white font-sans">
         <div class="accessable">
@@ -63,38 +63,18 @@
                     />
                 </svg>
             </button>
-            <div
-                hx-get="partials/header.html"
-                hx-swap="outerHTML"
-                hx-trigger="load"
-            ></div>
+            {% include "header.html" %}
             <main>
-                <div
-                    hx-get="partials/introduction.html"
-                    hx-swap="outerHTML"
-                    hx-trigger="load"
-                ></div>
-                <div
-                    hx-get="partials/skills.html"
-                    hx-swap="outerHTML"
-                    hx-trigger="load"
-                ></div>
-                <div
-                    hx-get="partials/experience.html"
-                    hx-swap="outerHTML"
-                    hx-trigger="load"
-                ></div>
+                {% include "introduction.html" %}
+                {% include "skills.html" %}
+                {% include "experience.html" %}
                 <img
                     src="Assets\strawhat.png"
                     class="max-w-full h-auto block mx-auto mt-12 md:mt-20"
                     alt="strawhat"
                 />
             </main>
-            <div
-                hx-get="partials/footer.html"
-                hx-swap="outerHTML"
-                hx-trigger="load"
-            ></div>
+            {% include "footer.html" %}
         </div>
 
         <div class="not-accessable" style="display: none">
