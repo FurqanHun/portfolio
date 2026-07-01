@@ -3,15 +3,9 @@ const { execSync } = require('child_process');
 module.exports = function () {
   try {
     const currentDate = new Date().toISOString().split('T')[0];
+    const iteration = 15;
 
-    let commitCount = parseInt(execSync('git rev-list --count --since="midnight" HEAD').toString().trim(), 10) || 0;
-
-    const status = execSync('git status --porcelain -uno').toString().trim();
-    if (status !== '') {
-      commitCount += 1;
-    }
-
-    return `v3.${currentDate}.${commitCount}`;
+    return `v3.${currentDate}.${iteration}`;
   } catch (error) {
     const fallbackDate = new Date().toISOString().split('T')[0];
     return `v3.${fallbackDate}.unknown`;
