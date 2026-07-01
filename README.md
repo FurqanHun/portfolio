@@ -8,7 +8,7 @@ _I tried saving the og by removing the html content i didn't needed and removing
 
 The following libraries are included in `/vendors/` as minified standalone files:
 
-- [htmx](https://unpkg.com/htmx.org@2.0.4/) (`vendors/htmx.min.js`) – version 2.0.4
-- [PapaParse](https://unpkg.com/papaparse@5.5.2/) (`vendors/papaparse.min.js`) – version 5.5.2
+- [htmx](https://unpkg.com/htmx.org@2.0.10/) (`vendors/htmx.min.js`) – version 2.0.10
+- [PapaParse](https://unpkg.com/papaparse@5.5.4/) (`vendors/papaparse.min.js`) – version 5.5.4
 
 Versions are also listed in `package.json` for reference only. The site does **not** use npm or a build step for JS. npm is only used to build Tailwind CSS.

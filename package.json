@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.4",
-    "papaparse": "^5.5.2",
-    "tailwindcss": "^4.1.4",
-    "htmx":"^2.0.4"
+    "@tailwindcss/cli": "^4.3.2",
+    "htmx.org": "^2.0.10",
+    "papaparse": "^5.5.4",
+    "tailwindcss": "^4.3.2"
   }
 }
