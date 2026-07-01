@@ -2,12 +2,18 @@ const { execSync } = require('child_process');
 
 module.exports = function () {
   try {
-    const commitHash = execSync('git rev-parse --short HEAD').toString().trim();
+    const currentDate = new Date().toISOString().split('T')[0];
 
-    const commitDate = execSync('git show -s --format=%cd --date=short HEAD').toString().trim();
+    let commitCount = parseInt(execSync('git rev-list --count --since="midnight" HEAD').toString().trim(), 10) || 0;
 
-    return `v3.${commitHash}.${commitDate}`;
+    const status = execSync('git status --porcelain').toString().trim();
+    if (status !== '') {
+      commitCount += 1;
+    }
+
+    return `v3.${currentDate}.${commitCount}`;
   } catch (error) {
-    return 'v3.unknown.unknown';
+    const fallbackDate = new Date().toISOString().split('T')[0];
+    return `v3.${fallbackDate}.unknown`;
   }
 };
