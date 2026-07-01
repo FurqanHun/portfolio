@@ -1,10 +1,8 @@
-<h1>Portfolio v2 (Still Work in Progress!)</h1>
-<p>This is an upgrade to my personal portfolio site originally written in HTML, CSS, and JS. The old version had a big ass CSS file of about 900+ lines and messy HTML—<code>project.html</code> gave me trauma every time I had to update it. I ain't a fan of Bootstrap (it was good, but not my cup of tea). Now the site has shifted to HTMX, Tailwind (still not my cup of the tea), and pure JS. At least there's no 900 lines of CSS and everything merged into one or more HTML files. It will make it much easier to maintain and update. I don't wanna get into the backend yet, so pure JS it is and also yes i am using .csv as a data source.</p>
+<h1>Portfolio v3 (Still Work in Progress!)</h1>
+<p>This is an upgrade to my personal portfolio site originally written in HTML, CSS, and JS. The old version had a big ass CSS file of about 900+ lines and messy HTML—<code>project.html</code> gave me trauma every time I had to update it. I ain't a fan of Bootstrap (it was good, but not my cup of tea).</p>
+<p>For <strong>v2</strong>, the site shifted to HTMX, Tailwind (still not my cup of the tea tbh), and pure JS. I was pulling project data from a <code>.csv</code> using PapaParse.</p>
+<p>Now for <strong>v3</strong>, we went full static with <strong>Eleventy (11ty)</strong>. Dumped HTMX and PapaParse completely cause loading all that stuff client-side was kinda wack. Shit's way faster now. I also swapped the <code>.csv</code> out for a native <code>.json</code> data source. At least there's no 900 lines of CSS anymore and everything is properly chunked into different HTML files. It makes it way easier to maintain and update without losing my mind. I don't wanna get into the backend yet, so purely static HTML it is.</p>
 <p><em>I tried saving the og by removing the html content i didn't needed and removing useless css but it was just better to shift. The site's more responsive now and doesn't act weirdly at breakpoints btw.</em></p>
-<h2>Vendor JS</h2>
-<p>The following libraries are included in <code>/vendors/</code> as minified standalone files:</p>
-<ul>
-<li><a href="https://unpkg.com/htmx.org@2.0.10/">htmx</a> (<code>vendors/htmx.min.js</code>) – version 2.0.10</li>
-<li><a href="https://unpkg.com/papaparse@5.5.4/">PapaParse</a> (<code>vendors/papaparse.min.js</code>) – version 5.5.4</li>
-</ul>
-<p>Versions are also listed in <code>package.json</code> for reference only. The site does <strong>not</strong> use npm or a build step for JS. npm is only used to build Tailwind CSS.</p>
+<h2>Dependencies</h2>
+<p>The project relies on <a href="https://www.11ty.dev/">Eleventy (11ty)</a> for fast, static site generation.</p>
+<p>Versions are listed in <code>package.json</code>. The site uses a build step <code>npm run build</code> or <code>npm run start</code> to process the Tailwind CSS and dynamically generate the static HTML into the <code>_site/</code> directory via Eleventy.</p>
