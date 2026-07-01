@@ -3,7 +3,7 @@ const { execSync } = require('child_process');
 module.exports = function () {
   try {
     const currentDate = new Date().toISOString().split('T')[0];
-    const iteration = 17;
+    const iteration = 18;
 
     return `v3.${currentDate}.${iteration}`;
   } catch (error) {
