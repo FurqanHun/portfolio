@@ -6,7 +6,7 @@ module.exports = function () {
 
     let commitCount = parseInt(execSync('git rev-list --count --since="midnight" HEAD').toString().trim(), 10) || 0;
 
-    const status = execSync('git status --porcelain').toString().trim();
+    const status = execSync('git status --porcelain -uno').toString().trim();
     if (status !== '') {
       commitCount += 1;
     }
