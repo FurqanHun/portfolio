@@ -13,3 +13,6 @@ _I tried saving the og by removing the html content i didn't needed and removing
 The project relies on [Eleventy (11ty)](https://www.11ty.dev/) for fast, static site generation.
 
 Versions are listed in `package.json`. The site uses a build step `npm run build` or `npm run start` to process the Tailwind CSS and dynamically generate the static HTML into the `_site/` directory via Eleventy.
+
+## Disclaimer
+**All brand icons, logos, and trademarks used in this repository and on the live site belong to their respective owners.** I do not claim ownership of any of the third-party logos or icons (e.g., from Icons8, Wikimedia, etc.) present in the `Assets/` directory. They are used purely for illustrative purposes to represent technologies, skills, or tools.
