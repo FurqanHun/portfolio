@@ -47,6 +47,7 @@
             <button
                 id="goToTopButton"
                 class="fixed bottom-5 right-5 bg-orange-500 text-white p-2 rounded-full shadow-lg z-50 hidden hover:bg-orange-600 focus:outline-none"
+                aria-label="Go to top"
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -64,15 +65,14 @@
                 </svg>
             </button>
             <nav id="pc-nav" class="hidden md:block bg-black py-4">
-    <ul class="container mx-auto flex items-center justify-between">
-        <h3
+    <div class="container mx-auto flex items-center justify-between">
+        <span
             id="navhead"
-            class="text-xl font-semibold text-white hover:text-orange-500 cursor-pointer"
+            class="text-xl font-semibold text-white hover:text-orange-500 cursor-pointer block"
         >
-            <a href="/portfolio/">
-            Furqan Hun
-        </h3>
-        <div class="flex space-x-6">
+            <a href="/portfolio/">Furqan Hun</a>
+        </span>
+        <ul class="flex space-x-6">
             <li>
                 <a
                     class="text-gray-300 hover:text-orange-500 active:text-orange-500"
@@ -108,8 +108,8 @@
                     href="/"
                     >Hub</a>
             </li>
-        </div>
-    </ul>
+        </ul>
+    </div>
 </nav>
 
 <nav id="mobile-nav" class="md:hidden bg-black py-3">
@@ -123,6 +123,7 @@
             id="mobile-menu-button"
             class="text-gray-300 focus:outline-none"
             type="button"
+            aria-label="Toggle mobile menu"
         >
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -232,9 +233,9 @@
     id="introduction"
     class="py-16 flex flex-col items-center justify-center text-center"
 >
-    <h2 id="Introduction" class="text-3xl font-bold text-orange-500 mb-8">
+    <span id="Introduction" class="text-3xl font-bold text-orange-500 mb-8 block">
         Introduction
-    </h2>
+    </span>
 
     <div class="name-title mb-6">
         <h1 id="name" class="text-4xl font-semibold text-white">M Furqan K.</h1>
@@ -247,7 +248,7 @@
         <h4 class="text-lg font-semibold text-orange-500">Email</h4>
         <a
             href="mailto:business.furqanhun@gmail.com"
-            class="text-white hover:underline"
+            class="text-white hover:underline hover:text-orange-400"
             >business.furqanhun@gmail.com</a
         >
     </div>
@@ -259,39 +260,45 @@
                 href="https://www.linkedin.com/in/FurqanHun/"
                 target="_blank"
                 class="hover:scale-110"
+                aria-label="LinkedIn Profile"
             >
                 <img
                     src="/portfolio/Assets/linkedin.png"
                     alt="linkedin"
                     class="w-6 h-6"
                     id="linkedin"
+                    width="24" height="24"
                 />
             </a>
             <a
                 href="https://github.com/FurqanHun"
                 target="_blank"
                 class="hover:scale-110"
+                aria-label="GitHub Profile"
             >
                 <img
                     src="/portfolio/Assets/github_fluid.png"
                     alt="github"
                     class="w-6 h-6"
+                    width="24" height="24"
                 />
             </a>
             <a
                 href="https://www.instagram.com/furqan_hi_hun/"
                 target="_blank"
                 class="hover:scale-110"
+                aria-label="Instagram Profile"
             >
                 <img
                     src="/portfolio/Assets/instagram.png"
                     alt="instagram"
                     class="w-6 h-6"
+                    width="24" height="24"
                 />
             </a>
         </div>
         <div class="mt-4 text-sm text-gray-400">
-            Mirrors available on <a href="https://gitlab.com/FurqanHun" class="text-orange-400 hover:underline" target="_blank">GitLab</a> and <a href="https://codeberg.org/FurqanHun" class="text-orange-400 hover:underline" target="_blank">Codeberg</a>.
+            Mirrors available on <a href="https://gitlab.com/FurqanHun" class="text-orange-400 hover:underline hover:text-orange-300" target="_blank">GitLab</a> and <a href="https://codeberg.org/FurqanHun" class="text-orange-400 hover:underline hover:text-orange-300" target="_blank">Codeberg</a>.
         </div>
     </div>
 </section>
@@ -557,14 +564,14 @@
                     Maintain COPR packages for personal use:
                     <a
                         href="https://copr.fedorainfracloud.org/coprs/furqanhun/lowfi/"
-                        class="text-orange-400 underline hover:text-orange-300"
+                        class="text-orange-400 hover:underline hover:text-orange-300"
                         target="_blank"
                         rel="noopener"
                         >lowfi</a
                     >,
                     <a
                         href="https://copr.fedorainfracloud.org/coprs/furqanhun/cotp/"
-                        class="text-orange-400 underline hover:text-orange-300"
+                        class="text-orange-400 hover:underline hover:text-orange-300"
                         target="_blank"
                         rel="noopener"
                         >cotp</a
@@ -588,6 +595,7 @@
                         src="/portfolio/Assets/Projects/mpv-music.png"
                         alt="mpv-music"
                         class="w-full h-48 object-cover"
+                        width="800" height="400" loading="lazy"
                     />
                     <div class="p-4">
                         <h5 class="text-lg font-bold text-white mb-1">
@@ -600,7 +608,8 @@
                         <a
                             href="https://github.com/FurqanHun/mpv-music"
                             target="_blank"
-                            class="text-orange-400 text-sm font-semibold hover:text-orange-300"
+                            class="text-orange-400 text-sm font-semibold hover:underline hover:text-orange-300"
+                            aria-label="View Code for mpv-music"
                         >
                             View Code &rarr;
                         </a>
@@ -614,6 +623,7 @@
                         src="/portfolio/Assets/Projects/tastytabs.jpg"
                         alt="TastyTabs"
                         class="w-full h-48 object-cover"
+                        width="800" height="400" loading="lazy"
                     />
                     <div class="p-4">
                         <h5 class="text-lg font-bold text-white mb-1">
@@ -626,7 +636,8 @@
                         <a
                             href="https://github.com/FurqanHun/TastyTabs"
                             target="_blank"
-                            class="text-orange-400 text-sm font-semibold hover:text-orange-300"
+                            class="text-orange-400 text-sm font-semibold hover:underline hover:text-orange-300"
+                            aria-label="View Code for TastyTabs"
                         >
                             View Code &rarr;
                         </a>
@@ -640,6 +651,7 @@
                         src="/portfolio/Assets/Projects/fitnesstracker.png"
                         alt="Fitness Tracker"
                         class="w-full h-48 object-cover"
+                        width="800" height="400" loading="lazy"
                     />
                     <div class="p-4">
                         <h5 class="text-lg font-bold text-white mb-1">
@@ -652,7 +664,8 @@
                         <a
                             href="https://github.com/FurqanHun/FitnessTracker"
                             target="_blank"
-                            class="text-orange-400 text-sm font-semibold hover:text-orange-300"
+                            class="text-orange-400 text-sm font-semibold hover:underline hover:text-orange-300"
+                            aria-label="View Code for Fitness Tracker"
                         >
                             View Code &rarr;
                         </a>
@@ -666,6 +679,7 @@
                         src="/portfolio/Assets/Projects/FYT_Inventory_Management.png"
                         alt="FYT Inventory"
                         class="w-full h-48 object-cover"
+                        width="800" height="400" loading="lazy"
                     />
                     <div class="p-4">
                         <h5 class="text-lg font-bold text-white mb-1">
@@ -678,7 +692,8 @@
                         <a
                             href="https://github.com/FurqanHun/FYT_Inventory_Management"
                             target="_blank"
-                            class="text-orange-400 text-sm font-semibold hover:text-orange-300"
+                            class="text-orange-400 text-sm font-semibold hover:underline hover:text-orange-300"
+                            aria-label="View Code for FYT Inventory"
                         >
                             View Code &rarr;
                         </a>
@@ -692,6 +707,7 @@
                         src="/portfolio/Assets/Projects/textnomnom-py.png"
                         alt="Text Nom Nom"
                         class="w-full h-48 object-cover"
+                        width="800" height="400" loading="lazy"
                     />
                     <div class="p-4">
                         <h5 class="text-lg font-bold text-white mb-1">
@@ -704,7 +720,8 @@
                         <a
                             href="https://github.com/FurqanHun/textnomnom-py"
                             target="_blank"
-                            class="text-orange-400 text-sm font-semibold hover:text-orange-300"
+                            class="text-orange-400 text-sm font-semibold hover:underline hover:text-orange-300"
+                            aria-label="View Code for Text Nom Nom"
                         >
                             View Code &rarr;
                         </a>
@@ -718,6 +735,7 @@
                         src="/portfolio/Assets/Projects/wa-status.png"
                         alt="WhatsApp Status"
                         class="w-full h-48 object-cover"
+                        width="800" height="400" loading="lazy"
                     />
                     <div class="p-4">
                         <h5 class="text-lg font-bold text-white mb-1">
@@ -730,7 +748,8 @@
                         <a
                             href="https://github.com/FurqanHun/wa-status"
                             target="_blank"
-                            class="text-orange-400 text-sm font-semibold hover:text-orange-300"
+                            class="text-orange-300 text-sm font-semibold underline underline-offset-4 hover:text-orange-200"
+                            aria-label="View Code for WA Status Checker"
                         >
                             View Code &rarr;
                         </a>
@@ -756,6 +775,9 @@
                     src="/portfolio/Assets/strawhat.png"
                     class="max-w-full h-auto block mx-auto mt-12 md:mt-20"
                     alt="strawhat"
+                    width="1024"
+                    height="667"
+                    loading="lazy"
                 />
             </main>
             <div class="bg-gray-900 py-4 text-center text-gray-400 text-sm">
@@ -767,7 +789,7 @@
             </a>
         </p>
         <p class="mt-2 text-xs text-gray-600">
-            Version: v3.2026-07-03.1
+            Version: v3.2026-07-03.2
         </p>
     </footer>
 </div>

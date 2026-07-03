@@ -47,6 +47,7 @@
             <button
                 id="goToTopButton"
                 class="fixed bottom-5 right-5 bg-orange-500 text-white p-2 rounded-full shadow-lg z-50 hidden hover:bg-orange-600 focus:outline-none"
+                aria-label="Go to top"
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -64,15 +65,14 @@
                 </svg>
             </button>
             <nav id="pc-nav" class="hidden md:block bg-black py-4">
-    <ul class="container mx-auto flex items-center justify-between">
-        <h3
+    <div class="container mx-auto flex items-center justify-between">
+        <span
             id="navhead"
-            class="text-xl font-semibold text-white hover:text-orange-500 cursor-pointer"
+            class="text-xl font-semibold text-white hover:text-orange-500 cursor-pointer block"
         >
-            <a href="/portfolio/">
-            Furqan Hun
-        </h3>
-        <div class="flex space-x-6">
+            <a href="/portfolio/">Furqan Hun</a>
+        </span>
+        <ul class="flex space-x-6">
             <li>
                 <a
                     class="text-gray-300 hover:text-orange-500 active:text-orange-500"
@@ -108,8 +108,8 @@
                     href="/"
                     >Hub</a>
             </li>
-        </div>
-    </ul>
+        </ul>
+    </div>
 </nav>
 
 <nav id="mobile-nav" class="md:hidden bg-black py-3">
@@ -123,6 +123,7 @@
             id="mobile-menu-button"
             class="text-gray-300 focus:outline-none"
             type="button"
+            aria-label="Toggle mobile menu"
         >
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -239,286 +240,286 @@
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/mpv-music.png" class="w-full h-48 object-cover" alt="mpv-music">
+                                <img src="/portfolio/Assets/Projects/mpv-music.png" class="w-full h-48 object-cover" alt="mpv-music" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">mpv-music</h3>
                                     <p class="text-gray-300 mb-4">A TUI-based music player wrapper for MPV. Originally a BASH script, it has been rewritten in Rust.</p>
-                                    <a href="https://github.com/FurqanHun/mpv-music" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/mpv-music" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open mpv-music">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/tastytabs.jpg" class="w-full h-48 object-cover" alt="TastyTabs">
+                                <img src="/portfolio/Assets/Projects/tastytabs.jpg" class="w-full h-48 object-cover" alt="TastyTabs" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">TastyTabs</h3>
                                     <p class="text-gray-300 mb-4">Mobile app built in React Native to explore and create recipes.</p>
-                                    <a href="https://github.com/FurqanHun/TastyTabs" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/TastyTabs" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open TastyTabs">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/fitnesstracker.png" class="w-full h-48 object-cover" alt="Fitness Tracker">
+                                <img src="/portfolio/Assets/Projects/fitnesstracker.png" class="w-full h-48 object-cover" alt="Fitness Tracker" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">Fitness Tracker</h3>
                                     <p class="text-gray-300 mb-4">Mobile app built in React Native to track fitness goals and progress.</p>
-                                    <a href="https://github.com/FurqanHun/FitnessTracker" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/FitnessTracker" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open Fitness Tracker">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/wa-status.png" class="w-full h-48 object-cover" alt="WhatsApp Status Checker">
+                                <img src="/portfolio/Assets/Projects/wa-status.png" class="w-full h-48 object-cover" alt="WhatsApp Status Checker" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">WhatsApp Status Checker</h3>
                                     <p class="text-gray-300 mb-4">A simple site with backend API that pings WhatsApp servers from different locations.</p>
-                                    <a href="https://github.com/FurqanHun/wa-status" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/wa-status" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open WhatsApp Status Checker">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/textnomnom-py.png" class="w-full h-48 object-cover" alt="Text Nom Nom">
+                                <img src="/portfolio/Assets/Projects/textnomnom-py.png" class="w-full h-48 object-cover" alt="Text Nom Nom" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">Text Nom Nom</h3>
                                     <p class="text-gray-300 mb-4">A text hungry gremlin that extracts text from PDFs-PPTs (with OCR support) + more</p>
-                                    <a href="https://github.com/FurqanHun/textnomnom-py" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/textnomnom-py" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open Text Nom Nom">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/k-xity.png" class="w-full h-48 object-cover" alt="K-Xity">
+                                <img src="/portfolio/Assets/Projects/k-xity.png" class="w-full h-48 object-cover" alt="K-Xity" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">K-Xity</h3>
                                     <p class="text-gray-300 mb-4">System Design and UI prototype for an e-city app for uni project</p>
-                                    <a href="https://www.figma.com/proto/ydG8RF04littcbMLQjxOLl/UI-Prototype" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://www.figma.com/proto/ydG8RF04littcbMLQjxOLl/UI-Prototype" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open K-Xity">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/localscreenshare-py.png" class="w-full h-48 object-cover" alt="Local Screen Share">
+                                <img src="/portfolio/Assets/Projects/localscreenshare-py.png" class="w-full h-48 object-cover" alt="Local Screen Share" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">Local Screen Share</h3>
                                     <p class="text-gray-300 mb-4">Local Screen Share (both udp/tcp implementations) built using Python as a university project.</p>
-                                    <a href="https://github.com/FurqanHun/LocalScreenShare-py" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/LocalScreenShare-py" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open Local Screen Share">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/temp-conv-rust.png" class="w-full h-48 object-cover" alt="Temperature Converter Rust">
+                                <img src="/portfolio/Assets/Projects/temp-conv-rust.png" class="w-full h-48 object-cover" alt="Temperature Converter Rust" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">Temperature Converter Rust</h3>
                                     <p class="text-gray-300 mb-4">Temperature Converter built using Rust.</p>
-                                    <a href="https://github.com/FurqanHun/temp-conv-rust" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/temp-conv-rust" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open Temperature Converter Rust">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/guessing-game-rust.png" class="w-full h-48 object-cover" alt="Guessing Game Rust">
+                                <img src="/portfolio/Assets/Projects/guessing-game-rust.png" class="w-full h-48 object-cover" alt="Guessing Game Rust" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">Guessing Game Rust</h3>
                                     <p class="text-gray-300 mb-4">Guessing Game built using Rust.</p>
-                                    <a href="https://github.com/FurqanHun/guessing-game-rust" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/guessing-game-rust" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open Guessing Game Rust">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/Bulky-Image-Converter.png" class="w-full h-48 object-cover" alt="Bulky Image Converter">
+                                <img src="/portfolio/Assets/Projects/Bulky-Image-Converter.png" class="w-full h-48 object-cover" alt="Bulky Image Converter" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">Bulky Image Converter</h3>
                                     <p class="text-gray-300 mb-4">Script to convert images in bulky...Yes that's it.</p>
-                                    <a href="https://github.com/FurqanHun/Bulky-Image-Converter" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/Bulky-Image-Converter" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open Bulky Image Converter">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/echoes-on-rails.png" class="w-full h-48 object-cover" alt="Echoes on Rails">
+                                <img src="/portfolio/Assets/Projects/echoes-on-rails.png" class="w-full h-48 object-cover" alt="Echoes on Rails" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">Echoes on Rails</h3>
                                     <p class="text-gray-300 mb-4">System Design and UI prototype of a game for uni project</p>
-                                    <a href="https://www.figma.com/proto/4PE9nnoKSZIpHa21jHXup2/Echoes-on-Rails" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://www.figma.com/proto/4PE9nnoKSZIpHa21jHXup2/Echoes-on-Rails" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open Echoes on Rails">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/aQracker.png" class="w-full h-48 object-cover" alt="aQracker">
+                                <img src="/portfolio/Assets/Projects/aQracker.png" class="w-full h-48 object-cover" alt="aQracker" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">aQracker</h3>
                                     <p class="text-gray-300 mb-4">A simple Python script for cracking password-protected archives using 7-Zip.</p>
-                                    <a href="https://github.com/FurqanHun/aQracker" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/aQracker" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open aQracker">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/BBC_Urdu_DSA.png" class="w-full h-48 object-cover" alt="BBC Urdu DSA">
+                                <img src="/portfolio/Assets/Projects/BBC_Urdu_DSA.png" class="w-full h-48 object-cover" alt="BBC Urdu DSA" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">BBC Urdu DSA</h3>
                                     <p class="text-gray-300 mb-4">Scrapped BBC News Urdu and used headline's titles to train ML and DL algortihms for uni project</p>
-                                    <a href="https://github.com/FurqanHun/BBC_Urdu_DSA" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/BBC_Urdu_DSA" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open BBC Urdu DSA">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/MAL_AniManga_DSA.png" class="w-full h-48 object-cover" alt="MAL AniManga DSA">
+                                <img src="/portfolio/Assets/Projects/MAL_AniManga_DSA.png" class="w-full h-48 object-cover" alt="MAL AniManga DSA" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">MAL AniManga DSA</h3>
                                     <p class="text-gray-300 mb-4">Scrapped MAL and used AniManga Synopsis to train ML and DL algortihms for uni project</p>
-                                    <a href="https://github.com/FurqanHun/MAL_AniManga_DSA" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/MAL_AniManga_DSA" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open MAL AniManga DSA">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/DSA-LTS.png" class="w-full h-48 object-cover" alt="DSA-LTS">
+                                <img src="/portfolio/Assets/Projects/DSA-LTS.png" class="w-full h-48 object-cover" alt="DSA-LTS" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">DSA-LTS</h3>
                                     <p class="text-gray-300 mb-4">Contains all my Data Structure and ALgorithms Lab Tasks (Python)</p>
-                                    <a href="https://github.com/FurqanHun/DSA-LTS" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/DSA-LTS" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open DSA-LTS">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/portfolio.png" class="w-full h-48 object-cover" alt="Portfolio">
+                                <img src="/portfolio/Assets/Projects/portfolio.png" class="w-full h-48 object-cover" alt="Portfolio" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">Portfolio</h3>
                                     <p class="text-gray-300 mb-4">A responsive portfolio website built using HTML-CSS-JavaScript and BootStrap.</p>
-                                    <a href="https://github.com/FurqanHun/OIBSIP/tree/master/Level-1/Task%202%20-%20Portfolio" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/OIBSIP/tree/master/Level-1/Task%202%20-%20Portfolio" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open Portfolio">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/temp-conv.png" class="w-full h-48 object-cover" alt="Temp Converter">
+                                <img src="/portfolio/Assets/Projects/temp-conv.png" class="w-full h-48 object-cover" alt="Temp Converter" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">Temp Converter</h3>
                                     <p class="text-gray-300 mb-4">A responsive temperature converter web app built using HTML-CSS and JavaScript.</p>
-                                    <a href="https://github.com/FurqanHun/OIBSIP/tree/master/Level-1/Task%203%20-%20Temp%20Converter" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/OIBSIP/tree/master/Level-1/Task%203%20-%20Temp%20Converter" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open Temp Converter">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/landingpage-furqanhun.png" class="w-full h-48 object-cover" alt="Furqan Hun Landing Page">
+                                <img src="/portfolio/Assets/Projects/landingpage-furqanhun.png" class="w-full h-48 object-cover" alt="Furqan Hun Landing Page" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">Furqan Hun Landing Page</h3>
                                     <p class="text-gray-300 mb-4">A responsive landing page for a fictional website built using HTML and CSS.</p>
-                                    <a href="https://github.com/FurqanHun/OIBSIP/tree/master/Level-1/Task%201%20-%20Landing%20Page" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/OIBSIP/tree/master/Level-1/Task%201%20-%20Landing%20Page" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open Furqan Hun Landing Page">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/FYT_Inventory_Management.png" class="w-full h-48 object-cover" alt="FYT Inv Management">
+                                <img src="/portfolio/Assets/Projects/FYT_Inventory_Management.png" class="w-full h-48 object-cover" alt="FYT Inv Management" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">FYT Inv Management</h3>
                                     <p class="text-gray-300 mb-4">An application built as a university project that utilizes all CRUD operations of database in C#.</p>
-                                    <a href="https://github.com/FurqanHun/FYT_Inventory_Management" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/FYT_Inventory_Management" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open FYT Inv Management">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/OOP-CS-LTS.png" class="w-full h-48 object-cover" alt="OOP-CS-LTS">
+                                <img src="/portfolio/Assets/Projects/OOP-CS-LTS.png" class="w-full h-48 object-cover" alt="OOP-CS-LTS" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">OOP-CS-LTS</h3>
                                     <p class="text-gray-300 mb-4">All my OOP's CLI based and Windows Forms Lab Tasks and Assignments built using C# in .NET 7.0</p>
-                                    <a href="https://github.com/FurqanHun/OOP-CS-LTS" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/OOP-CS-LTS" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open OOP-CS-LTS">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/informatician_rohansx.png" class="w-full h-48 object-cover" alt="Informatician">
+                                <img src="/portfolio/Assets/Projects/informatician_rohansx.png" class="w-full h-48 object-cover" alt="Informatician" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">Informatician</h3>
                                     <p class="text-gray-300 mb-4">Contributed to an open source book listing project on GitHub by creating documentation.</p>
-                                    <a href="https://github.com/FurqanHun/informatician_rohansx/tree/contribution-style-furqanhun" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/informatician_rohansx/tree/contribution-style-furqanhun" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open Informatician">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/ToDoApp_Ankit6989.png" class="w-full h-48 object-cover" alt="ToDoApp_Ankit6989">
+                                <img src="/portfolio/Assets/Projects/ToDoApp_Ankit6989.png" class="w-full h-48 object-cover" alt="ToDoApp_Ankit6989" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">ToDoApp_Ankit6989</h3>
                                     <p class="text-gray-300 mb-4">Contributed to an open source project on GitHub by improving their documentation.</p>
-                                    <a href="https://github.com/FurqanHun/ToDoAPP_Ankit6989/tree/README-Furqan" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/ToDoAPP_Ankit6989/tree/README-Furqan" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open ToDoApp_Ankit6989">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/Fursistant.png" class="w-full h-48 object-cover" alt="Fursistant">
+                                <img src="/portfolio/Assets/Projects/Fursistant.png" class="w-full h-48 object-cover" alt="Fursistant" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">Fursistant</h3>
                                     <p class="text-gray-300 mb-4">A voice assistant created as an after project for "Voice Application using JAVASCRIPT" event by GDSC SMIU.</p>
-                                    <a href="https://github.com/FurqanHun/Fursistant" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/Fursistant" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open Fursistant">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/PF-LTS.png" class="w-full h-48 object-cover" alt="PF-LTS">
+                                <img src="/portfolio/Assets/Projects/PF-LTS.png" class="w-full h-48 object-cover" alt="PF-LTS" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">PF-LTS</h3>
                                     <p class="text-gray-300 mb-4">Contains all my Programming Fundamental's CLI based Lab Tasks and Assignment (C language).</p>
-                                    <a href="https://github.com/FurqanHun/PF-LTS" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/PF-LTS" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open PF-LTS">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/MarksheetGenSite.png" class="w-full h-48 object-cover" alt="MarksheetGenSite">
+                                <img src="/portfolio/Assets/Projects/MarksheetGenSite.png" class="w-full h-48 object-cover" alt="MarksheetGenSite" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">MarksheetGenSite</h3>
                                     <p class="text-gray-300 mb-4">An HTML/CSS/JavaScript Marksheet Generator project for Web Dev Bootcamp by TECVERSE.</p>
-                                    <a href="https://github.com/FurqanHun/MarksheetGenSite" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/MarksheetGenSite" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open MarksheetGenSite">Open</a>
                                 </div>
                             </div>
                             
                         
                             
                             <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105">
-                                <img src="/portfolio/Assets/Projects/PassGen.png" class="w-full h-48 object-cover" alt="Project PassGen">
+                                <img src="/portfolio/Assets/Projects/PassGen.png" class="w-full h-48 object-cover" alt="Project PassGen" width="800" height="400" loading="lazy">
                                 <div class="p-4">
                                     <h3 class="text-xl font-semibold text-white mb-2">Project PassGen</h3>
                                     <p class="text-gray-300 mb-4">CLI based tool that generates random passwords and stores them with a user-specified name built in C.</p>
-                                    <a href="https://github.com/FurqanHun/PassGen" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">Open</a>
+                                    <a href="https://github.com/FurqanHun/PassGen" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition" aria-label="Open Project PassGen">Open</a>
                                 </div>
                             </div>
                             
@@ -536,7 +537,7 @@
             </a>
         </p>
         <p class="mt-2 text-xs text-gray-600">
-            Version: v3.2026-07-03.1
+            Version: v3.2026-07-03.2
         </p>
     </footer>
 </div>

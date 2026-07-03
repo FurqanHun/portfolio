@@ -1,13 +1,12 @@
 <nav id="pc-nav" class="hidden md:block bg-black py-4">
-    <ul class="container mx-auto flex items-center justify-between">
-        <h3
+    <div class="container mx-auto flex items-center justify-between">
+        <span
             id="navhead"
-            class="text-xl font-semibold text-white hover:text-orange-500 cursor-pointer"
+            class="text-xl font-semibold text-white hover:text-orange-500 cursor-pointer block"
         >
-            <a href="{{ '/' | url }}">
-            Furqan Hun
-        </h3>
-        <div class="flex space-x-6">
+            <a href="{{ '/' | url }}">Furqan Hun</a>
+        </span>
+        <ul class="flex space-x-6">
             <li>
                 <a
                     class="text-gray-300 hover:text-orange-500 active:text-orange-500"
@@ -43,8 +42,8 @@
                     href="/"
                     >Hub</a>
             </li>
-        </div>
-    </ul>
+        </ul>
+    </div>
 </nav>
 
 <nav id="mobile-nav" class="md:hidden bg-black py-3">
@@ -58,6 +57,7 @@
             id="mobile-menu-button"
             class="text-gray-300 focus:outline-none"
             type="button"
+            aria-label="Toggle mobile menu"
         >
             <svg
                 xmlns="http://www.w3.org/2000/svg"

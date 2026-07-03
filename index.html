@@ -47,6 +47,7 @@
             <button
                 id="goToTopButton"
                 class="fixed bottom-5 right-5 bg-orange-500 text-white p-2 rounded-full shadow-lg z-50 hidden hover:bg-orange-600 focus:outline-none"
+                aria-label="Go to top"
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -72,6 +73,9 @@
                     src="{{ '/Assets/strawhat.png' | url }}"
                     class="max-w-full h-auto block mx-auto mt-12 md:mt-20"
                     alt="strawhat"
+                    width="1024"
+                    height="667"
+                    loading="lazy"
                 />
             </main>
             {% include "footer.html" %}
